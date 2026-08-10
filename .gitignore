@@ -206,6 +206,12 @@ tempCodeRunnerFile.py
 # Ruff stuff:
 .ruff_cache/
 
+# FastSurvey local/runtime artifacts
+.playwright-cli/
+/output/playwright/
+/data/*.sqlite
+/data/*.sqlite-*
+
 # PyPI configuration file
 .pypirc
 
